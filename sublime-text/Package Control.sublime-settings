@@ -1,0 +1,30 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"Catppuccin color schemes",
+		"Dracula Color Scheme",
+		"LSP",
+		"LSP-clangd",
+		"LSP-css",
+		"LSP-gopls",
+		"LSP-html",
+		"LSP-jdtls",
+		"LSP-json",
+		"LSP-lua",
+		"LSP-pyright",
+		"LSP-typescript",
+		"NASM x86 Assembly",
+		"Nord",
+		"One Half Color Schemes",
+		"Package Control",
+		"PackageResourceViewer",
+		"Solarized Color Scheme",
+		"SublimeREPL",
+		"Theme - Rose Pine",
+	],
+}

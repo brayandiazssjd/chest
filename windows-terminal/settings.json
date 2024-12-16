@@ -1,0 +1,305 @@
+{
+    "$help": "https://aka.ms/terminal-documentation",
+    "$schema": "https://aka.ms/terminal-profiles-schema",
+    "actions": 
+    [
+        {
+            "command": "paste",
+            "id": "User.paste",
+            "keys": "ctrl+v"
+        },
+        {
+            "command": 
+            {
+                "action": "copy",
+                "singleLine": false
+            },
+            "id": "User.copy.644BA8F2",
+            "keys": "ctrl+c"
+        },
+        {
+            "command": 
+            {
+                "action": "splitPane",
+                "split": "auto",
+                "splitMode": "duplicate"
+            },
+            "id": "User.splitPane.A6751878",
+            "keys": "alt+shift+d"
+        },
+        {
+            "command": "find",
+            "id": "User.find",
+            "keys": "ctrl+shift+f"
+        }
+    ],
+    "alwaysShowNotificationIcon": false,
+    "alwaysShowTabs": true,
+    "copyFormatting": "none",
+    "copyOnSelect": false,
+    "defaultProfile": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+    "disableAnimations": false,
+    "firstWindowPreference": "defaultProfile",
+    "initialCols": 95,
+    "initialPosition": ",",
+    "initialRows": 35,
+    "language": "en-US",
+    "newTabMenu": 
+    [
+        {
+            "type": "remainingProfiles"
+        }
+    ],
+    "newTabPosition": "afterCurrentTab",
+    "profiles": 
+    {
+        "defaults": 
+        {
+            "backgroundImage": null,
+            "colorScheme": "Raspberry",
+            "cursorShape": "vintage",
+            "font": 
+            {
+                "face": "Cascadia Code NF",
+                "features": 
+                {
+                    "cv02": 1,
+                    "cv14": 1,
+                    "cv25": 1,
+                    "cv26": 1,
+                    "cv28": 1,
+                    "cv32": 1,
+                    "ss02": 1,
+                    "ss03": 1,
+                    "ss05": 1,
+                    "ss07": 1,
+                    "ss09": 1
+                },
+                "size": 12
+            },
+            "padding": "0",
+            "scrollbarState": "always",
+            "useAcrylic": false
+        },
+        "list": 
+        [
+            {
+                "commandline": "%SystemRoot%\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+                "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
+                "hidden": false,
+                "name": "Windows PowerShell"
+            },
+            {
+                "commandline": "%SystemRoot%\\System32\\cmd.exe",
+                "font": 
+                {
+                    "size": 12
+                },
+                "guid": "{0caa0dad-35be-5f56-a8ff-afceeeaa6101}",
+                "hidden": false,
+                "name": "S\u00edmbolo del sistema"
+            },
+            {
+                "guid": "{574e775e-4f2a-5b96-ac1e-a2962a402336}",
+                "hidden": false,
+                "name": "PowerShell",
+                "source": "Windows.Terminal.PowershellCore"
+            },
+            {
+                "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
+                "hidden": false,
+                "name": "Azure Cloud Shell",
+                "source": "Windows.Terminal.Azure"
+            },
+            {
+                "commandline": "C:\\Program Files\\Git\\bin\\bash.exe",
+                "guid": "{26397edf-4653-4cad-8be9-7d6c8aac7892}",
+                "hidden": false,
+                "icon": "C:\\Program Files\\Git\\mingw64\\share\\git\\git-for-windows.ico",
+                "name": "Git Bash",
+                "startingDirectory": "%USERPROFILE%"
+            },
+            {
+                "guid": "{be16521f-a1a3-5bd3-86a4-ed3ab81ef949}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{67beae90-fa8f-5c36-8789-119595925c63}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "commandline": "C:\\WINDOWS\\system32\\wsl.exe -d Debian",
+                "guid": "{ad42ec87-c756-4e5c-9e23-bd9fbc657706}",
+                "hidden": false,
+                "icon": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/66/Openlogo-debianV2.svg/194px-Openlogo-debianV2.svg.png",
+                "name": "Debian",
+                "startingDirectory": "~"
+            },
+            {
+                "guid": "{78e33f2c-a4fe-5717-affc-8f467d52975b}",
+                "hidden": false,
+                "name": "Developer Command Prompt for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            },
+            {
+                "guid": "{79b9c582-f728-5cf8-99f6-1c6326fb4fb5}",
+                "hidden": false,
+                "name": "Developer PowerShell for VS 2022",
+                "source": "Windows.Terminal.VisualStudio"
+            }
+        ]
+    },
+    "schemes": 
+    [
+        {
+            "background": "#282A36",
+            "black": "#21222C",
+            "blue": "#BD93F9",
+            "brightBlack": "#6272A4",
+            "brightBlue": "#D6ACFF",
+            "brightCyan": "#A4FFFF",
+            "brightGreen": "#69FF94",
+            "brightPurple": "#FF92DF",
+            "brightRed": "#FF6E6E",
+            "brightWhite": "#FFFFFF",
+            "brightYellow": "#FFFFA5",
+            "cursorColor": "#F8F8F2",
+            "cyan": "#8BE9FD",
+            "foreground": "#F8F8F2",
+            "green": "#50FA7B",
+            "name": "Dracula",
+            "purple": "#FF79C6",
+            "red": "#FF5555",
+            "selectionBackground": "#44475A",
+            "white": "#F8F8F2",
+            "yellow": "#F1FA8C"
+        },
+        {
+            "background": "#FFFFFF",
+            "black": "#3C5712",
+            "blue": "#17B2FF",
+            "brightBlack": "#749B36",
+            "brightBlue": "#27B2F6",
+            "brightCyan": "#13A8C0",
+            "brightGreen": "#89AF50",
+            "brightPurple": "#F2A20A",
+            "brightRed": "#F49B36",
+            "brightWhite": "#741274",
+            "brightYellow": "#991070",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3C96A6",
+            "foreground": "#000000",
+            "green": "#6AAE08",
+            "name": "Frost",
+            "purple": "#991070",
+            "red": "#8D0C0C",
+            "selectionBackground": "#FFFFFF",
+            "white": "#6E386E",
+            "yellow": "#991070"
+        },
+        {
+            "background": "#3C0315",
+            "black": "#282A2E",
+            "blue": "#0170C5",
+            "brightBlack": "#676E7A",
+            "brightBlue": "#80C8FF",
+            "brightCyan": "#8ABEB7",
+            "brightGreen": "#B5D680",
+            "brightPurple": "#AC79BB",
+            "brightRed": "#BD6D85",
+            "brightWhite": "#FFFFFD",
+            "brightYellow": "#FFFD76",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3F8D83",
+            "foreground": "#FFFFFD",
+            "green": "#76AB23",
+            "name": "Raspberry",
+            "purple": "#7D498F",
+            "red": "#BD0940",
+            "selectionBackground": "#FFFFFF",
+            "white": "#FFFFFD",
+            "yellow": "#E0DE48"
+        },
+        {
+            "background": "#E1E2E7",
+            "black": "#E9E9ED",
+            "blue": "#2E7DE9",
+            "brightBlack": "#A1A6C5",
+            "brightBlue": "#2E7DE9",
+            "brightCyan": "#007197",
+            "brightGreen": "#587539",
+            "brightPurple": "#7847BD",
+            "brightRed": "#F52A65",
+            "brightWhite": "#3760BF",
+            "brightYellow": "#8C6C3E",
+            "cursorColor": "#3760BF",
+            "cyan": "#007197",
+            "foreground": "#3760BF",
+            "green": "#587539",
+            "name": "Tokyo Night Day",
+            "purple": "#9854F1",
+            "red": "#F52A65",
+            "selectionBackground": "#B6BFE2",
+            "white": "#6172B0",
+            "yellow": "#8C6C3E"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-22.04-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        },
+        {
+            "background": "#300A24",
+            "black": "#171421",
+            "blue": "#0037DA",
+            "brightBlack": "#767676",
+            "brightBlue": "#08458F",
+            "brightCyan": "#2C9FB3",
+            "brightGreen": "#26A269",
+            "brightPurple": "#A347BA",
+            "brightRed": "#C01C28",
+            "brightWhite": "#F2F2F2",
+            "brightYellow": "#A2734C",
+            "cursorColor": "#FFFFFF",
+            "cyan": "#3A96DD",
+            "foreground": "#FFFFFF",
+            "green": "#26A269",
+            "name": "Ubuntu-ColorScheme",
+            "purple": "#881798",
+            "red": "#C21A23",
+            "selectionBackground": "#FFFFFF",
+            "white": "#CCCCCC",
+            "yellow": "#A2734C"
+        }
+    ],
+    "showTabsInTitlebar": true,
+    "showTerminalTitleInTitlebar": false,
+    "tabSwitcherMode": "inOrder",
+    "tabWidthMode": "equal",
+    "theme": "light",
+    "themes": [],
+    "useAcrylicInTabRow": false,
+    "windowingBehavior": "useNew"
+}
