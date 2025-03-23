@@ -1,5 +1,4 @@
 {
-	/*"font_size": 14,*/
 	"color_scheme": "Solarized (light).sublime-color-scheme",
 	"font_face": "Intel One Mono",
 	"font_options":
@@ -12,17 +11,13 @@
 		"Vintage",
 	],
 	"theme": "Default.sublime-theme",
-	/*"font_size": 11,*/
+	"font_size": 11,
 	"index_files": false,
 	"tab_size": 2,
 	"caret_style": "solid",
-	// These settings control the size of the caret
 	"caret_extra_top": 1,
 	"caret_extra_bottom": 0,
 	"caret_extra_width": 1,
 	"block_caret": false,
 	"translate_tabs_to_spaces": false,
-	/*"font_size": 12,*/
-	/*"font_size": 12,*/
-	/*"font_size": 17,*/
 }
